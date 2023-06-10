@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  redis:
+    container_name: questdbexperiments
+    image: "questdb/questdb:latest"
+    ports:
+      - 9000:9000
+      - 9009:9009
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure

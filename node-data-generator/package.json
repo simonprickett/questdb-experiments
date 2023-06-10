@@ -1,0 +1,19 @@
+{
+  "name": "data-generator",
+  "version": "0.0.1",
+  "description": "Data Generator that puts data into QuestDB.",
+  "main": "generator.js",
+  "type": "module",
+  "scripts": {
+    "start": "node generator.js"
+  },
+  "keywords": [
+    "QuestDB"
+  ],
+  "author": "Simon Prickett",
+  "license": "MIT",
+  "dependencies": {
+    "@questdb/nodejs-client": "^1.0.4",
+    "dotenv": "^16.1.4"
+  }
+}
